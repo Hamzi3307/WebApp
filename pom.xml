@@ -18,4 +18,16 @@
   <build>
     <finalName>WebApp</finalName>
   </build>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-34-131.ap-south-1.compute.internal-releases</name>
+        <url>http://3.108.221.26:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-34-131.ap-south-1.compute.internal-snapshots</name>
+        <url>http://3.108.221.26:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
